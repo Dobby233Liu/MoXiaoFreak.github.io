@@ -29,7 +29,7 @@ body {
 }
 
 a:hover {
-    border: 0px solid #efefef;
+    border: 0px solid ##8f8f8f;
     opacity: 0.8;
     text-decoration: none;
 }
