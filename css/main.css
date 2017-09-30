@@ -29,7 +29,7 @@ body {
 }
 
 a:hover {
-    border: 0px solid ##8f8f8f;
+    border: 0px solid #8f8f8f;
     opacity: 0.8;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ a:hover {
 a>.tag {
     font-size: 20px;
     margin: 1% 1%;
-    color: #242424;
+    color: #a7a7a7;
     text-align: center; 
 }
 
