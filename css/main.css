@@ -11,7 +11,7 @@ body {
     padding: 1% 10%;
     width: 70%;
     background-color: #333333;
-    border: 1px solid #efefef;
+    border: 1px solid #000000;
     opacity: 0.95;
 }
 
@@ -20,12 +20,12 @@ body {
     padding: 1% 5%;
     width: 70%;
     background-color: #333333;
-    border: 1px solid #efefef;
+    border: 1px solid #000000;
     opacity: 0.95;
 }
 
 .row>a {
-    border: 1px solid #efefef;
+    border: 1px solid #000000;
 }
 
 a:hover {
@@ -50,5 +50,5 @@ a>.desc {
     margin: 0 5% 5% 5%;
     padding: 5% 5%;
     color: #4d4d4d;
-    border: 1px solid #efefef;
+    border: 1px solid #000000;
 }
