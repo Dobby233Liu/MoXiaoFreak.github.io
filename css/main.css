@@ -10,7 +10,7 @@ body {
     margin: 1% 15%;
     padding: 1% 10%;
     width: 70%;
-    background-color: #2f2f2f;
+    background-color: #efefef;
     border: 1px solid #000000;
     opacity: 0.95;
 }
@@ -46,7 +46,7 @@ a>img {
 }
 
 a>.desc {
-    background-color: #fafafa;
+    background-color: #bfbfbf;
     margin: 0 5% 5% 5%;
     padding: 5% 5%;
     color: #4d4d4d;
