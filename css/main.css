@@ -1,0 +1,54 @@
+body {
+    background-color: #ededed;
+    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506790454659&di=3d63bd2da9a51f69333cc0f264a050c2&imgtype=0&src=http%3A%2F%2Fimg2.niutuku.com%2Fdesk%2F130126%2F42%2F42-niutuku.com-443.jpg");
+    background-position: 50% 0;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.title {
+    margin: 1% 15%;
+    padding: 1% 10%;
+    width: 70%;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    opacity: 0.95;
+}
+
+.row {
+    margin: 1% 15%;
+    padding: 1% 5%;
+    width: 70%;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    opacity: 0.95;
+}
+
+.row>a {
+    border: 1px solid #000000;
+}
+
+a:hover {
+    border: 0px solid #ffffff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a>.tag {
+    font-size: 20px;
+    margin: 1% 1%;
+    color: #a7a7a7;
+    text-align: center; 
+}
+
+a>img {
+    margin: 1% 0;
+}
+
+a>.desc {
+    background-color: #efefef;
+    margin: 0 5% 5% 5%;
+    padding: 5% 5%;
+    color: #4d4d4d;
+    border: 1px solid #000000;
+}
