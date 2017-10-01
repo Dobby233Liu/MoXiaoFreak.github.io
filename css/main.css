@@ -6,6 +6,8 @@ body {
     background-size: cover;
 }
 
+.small {font-size: small}
+
 .title {
     margin: 1% 15%;
     padding: 1% 10%;
