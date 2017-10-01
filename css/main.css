@@ -1,6 +1,6 @@
 body {
     background-color: #ededed;
-    background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506790454659&di=3d63bd2da9a51f69333cc0f264a050c2&imgtype=0&src=http%3A%2F%2Fimg2.niutuku.com%2Fdesk%2F130126%2F42%2F42-niutuku.com-443.jpg");
+    background-image: url("http://img2.niutuku.com/desk/130126/42/42-niutuku.com-443.jpg");
     background-position: 50% 0;
     background-attachment: scroll;
     background-size: cover;
@@ -52,3 +52,4 @@ a>.desc {
     color: #4d4d4d;
     border: 1px solid #000000;
 }
+
