@@ -8,37 +8,11 @@ ahh: "empty"
 
 <html lang="zh">
 
-<head>
-    <meta charset="UTF-8">
-    <title>墨潇|Freak</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
+{% include _includes/head.html %}
 
 <body>
-    <div class="title">
-        <h1 class="text-capitalize small">Technician;Freak<br>
-            Also Known As 墨潇▪风行者（Freak Stormwalker）<br>
-            <span class="label label-primary">死宅</span> 
-            <span class="label label-success">海王星</span> 
-            <span class="label label-info">Minecraft</span> 
-            <span class="label label-warning">辐射</span>
-            
-             
-    
-    <a href="http://validator.w3.org/check?uri=referer" id="valid_html_link">
-        <img
-      src="https://dobby233liu.github.io/svg_test/valid-html-unknown.png" alt="Valid HTML" height="31" width="88" />
-    </a>
-    <script>
-       // document.getElementById("valid_svg_1_1_link").href="http://validator.w3.org/check?uri="+location.href
-        document.getElementById("valid_html_link").href="http://validator.w3.org/check?uri="+location.href
-        </script>
-  
-            </h1>
-    </div>
+
+{% include _includes/title.html %}
     <div class="title">
      <!-- {% include /404.html %}-->
         {{ site.404_message }}
