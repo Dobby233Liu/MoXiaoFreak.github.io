@@ -1,1 +1,3 @@
-404_message: "<a>404了，<a href='https://MoXiaoFreak.github.io'>回主页</a></a>"
+# Define 404 message in HTML here.
+
+404_message: "<a>404了，<a href='index.html'>回主页</a></a>"
