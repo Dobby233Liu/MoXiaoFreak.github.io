@@ -1,6 +1,6 @@
 body {
     background-color: #ededed;
-    background-image: url("http://img2.niutuku.com/desk/130126/42/42-niutuku.com-443.jpg");
+   /** background-image: url("http://img2.niutuku.com/desk/130126/42/42-niutuku.com-443.jpg");**/
     background-position: 50% 0;
     background-attachment: scroll;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
     opacity: 0.95;
 }
 
-.row>a {
+.row a {
     border: 1px solid #000000;
 }
 
@@ -38,18 +38,18 @@ a:hover {
     text-decoration: none;
 }
 
-a>.tag {
+a .tag {
     font-size: 20px;
     margin: 1% 1%;
     color: #a7a7a7;
     text-align: center; 
 }
 
-a>img {
+a img {
     margin: 1% 0;
 }
 
-a>.desc {
+a .desc {
     background-color: #efefef;
     margin: 0 5% 5% 5%;
     padding: 5% 5%;

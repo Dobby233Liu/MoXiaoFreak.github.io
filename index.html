@@ -1,54 +1,16 @@
+---
+jekyll: true
+---
+
 <!DOCTYPE html>
 <html lang="zh">
 
-<head>
-    <meta charset="UTF-8">
-    <title>墨潇|Freak</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
+{% include head.html %}
 
 <body>
-    <div class="title">
-        <h1 class="text-capitalize">Technician;Freak<br>
-            <div class="small">Also Known As 墨潇▪风行者（Freak Stormwalker）<br>
-            <span class="label label-primary">死宅</span> 
-            <span class="label label-success">海王星</span> 
-            <span class="label label-info">Minecraft</span> 
-            <span class="label label-warning">辐射</span></div>
-            </h1>
-    </div>
-    <div class="row">
-        <div class="col-sm-6 col-md-4">
-            <a href="https://space.bilibili.com/5172011/?utm_source=fa_fa-moxiaofreakghpages-bilirow" class="thumbnail">
-                <img src="https://public.lightpic.info/thumb/80A9_59CF9EE30.jpg" alt="bilibili">
-                <p class="tag"><i class="fa fa-television" aria-hidden="true"></i> 哔哩哔哩</p>
-                <div class="desc">
-                    <p>应该是根据地了</p>
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <a href="http://i.youku.com/u/UMjkxMTk5NTAwMA?utm_source=fa_fa-moxiaofreakghpages-youtuberow" class="thumbnail">
-                <img src="https://public.lightpic.info/thumb/39CE_59CF9EE30.jpg" alt="youku">
-                <p class="tag"><i class="fa fa-youtube-play" aria-hidden="true"></i> 优酷</p>
-                <div class="desc">
-                    <p>很想弃坑......</p>
-                </div>
-            </a>
-        </div>
-        <div class="col-sm-6 col-md-4">
-            <a href="https://github.com/MoXiaoFreak/Minecraft-Mods-Tutorial?utm_source=fa_fa-moxiaofreakghpages-githubrow" class="thumbnail">
-                <img src="https://public.lightpic.info/thumb/8AC6_59CF9EE30.jpg" alt="github">
-                <p class="tag"><i class="fa fa-github" aria-hidden="true"></i> GitHub</p>
-                <div class="desc">
-                    <p>说明/公告/资料/代码 聚集地</p>
-                </div>
-            </a>
-        </div>
-    </div>
+    {% include title.html %}
+    {% include cols.html %}
+      
 </body>
 
 </html>
